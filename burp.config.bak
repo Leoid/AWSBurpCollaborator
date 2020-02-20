@@ -1,0 +1,40 @@
+{
+  "serverDomain" : "DOMAIN",
+  "workerThreads" : 10,
+  "eventCapture": {
+    "localAddress" : ["LOCALIP"],
+    "publicAddress" : "PUBLICIP",
+    "http": {
+      "ports" : 80
+    },
+    "https": {
+      "ports" : 8443
+    },
+    "smtp": {
+      "ports" : [25, 587]
+    },
+    "smtps": {
+      "ports" : 465
+    },
+  },
+  "polling" : {
+    "localAddress" : "LOCALIP",
+    "publicAddress" : "PUBLICIP",
+    "http": {
+      "port" : 9090
+    },
+        "metrics": {
+    "path" : "jnaicmez8",
+        "addressWhitelist":["0.0.0.0/1"]
+  },
+  },
+  "dns": {
+    "interfaces" : [{
+      "name": "ns1.b1twis3.me",
+      "localAddress" : "LOCALIP",
+      "publicAddress" : "PUBLICIP",
+   }],
+    "ports" : 53
+  },
+  "logLevel" : "DEBUG"
+}
