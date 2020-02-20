@@ -1,8 +1,9 @@
-# AWSBurpCollaborator
-Deploy a Private Burpsuite Collaborator using boto3 Python Library
+### Deploy private BurpSuite collaborator using boto3 Python library.
 
-### Usage 
-```Python3 deploy.py [domain]```
+### Usage
+```python3 deploy.py [domain]```
 
-#### Todo list:
-...
+### Todo list:
+- Update the Secruity Group to allow only the required ports instead of ALL TCP
+- Add a whitlisted IPs in metrics [burp.config.bak]
+- Add HTTPs
